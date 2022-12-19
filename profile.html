@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<div class="d">
+  <li><a class="active" href="profile.html">Profile</a></li>
+  <li><a href="career.html">Career</a></li>
+  <li><a href="travel.html">Travel</a></li>
+</div>
+
+<div class="d1">
+  <li><a href="personal.html">Personal Data</a></li>
+  <li><a href="education.html">Educational Background</a></li>
+  <li><a href="family.html">Family Background</a></li>
+</div>
+
+<style>
+body {
+  background: url(e.jpg);
+  background-size: 1370px;
+  
+}
+
+.d {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: crimson;
+  font-size: 20px;
+  font-family: Papyrus;
+}
+
+.d li {
+  float: left;
+}
+
+.d li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.d li a:hover:not(.active) {
+  background-color: peru;
+}
+
+.active {
+  background-color: peru;
+}
+
+.d1 {
+  list-style-type: none;
+  margin-left: 1px;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  background-color: crimson;
+  font-size: 18px;
+  overflow: auto;
+  height: 1000px;
+}
+
+.d1 li a {
+  display: block;
+  background-color: crimson;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.d1 li a.active {
+  background-color: peru;
+  color: white;
+}
+
+.d1 li a:hover:not(.active) {
+  background-color: peru;
+  color: white;
+}
+
+</style>
+
+
+</body>
+</html>

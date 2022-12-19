@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<div class="c">
+  <li><a href="profile.html">Profile</a></li>
+  <li><a class="active" href="career.html">Career</a></li>
+  <li><a href="travel.html">Travel</a></li>
+</div>
+
+<div class="c1">
+  <li><a href="model.html">Model</a></li>
+  <li><a href="fashion.html">Fashion Designer</a></li>
+  <li><a href="web.html">Web Developer</a></li>
+</div>
+
+
+<style>
+body {
+  background: url(career.jpg);
+  background-size: 1370px;
+  
+}
+
+.c {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: crimson;
+  font-size: 20px;
+  font-family: Papyrus;
+}
+
+.c li {
+  float: left;
+}
+
+.c li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.c li a:hover:not(.active) {
+  background-color: peru;
+}
+
+.active {
+  background-color: peru;
+}
+
+.c1 {
+  list-style-type: none;
+  margin-left: 1px;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  background-color: crimson;
+  font-size: 18px;
+  overflow: auto;
+  height: 1000px;
+}
+
+.c1 li a {
+  display: block;
+  background-color: crimson;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.c1 li a.active {
+  background-color: peru;
+  color: white;
+}
+
+.c1 li a:hover:not(.active) {
+  background-color: peru;
+  color: white;
+}
+
+</style>
+</body>
+</html>

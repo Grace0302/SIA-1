@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<div class="t">
+  <li><a href="profile.html">Profile</a></li>
+  <li><a href="career.html">Career</a></li>
+  <li><a class="active" href="travel.html">Travel</a></li>
+</div>
+
+<div class="t1">
+  <li><a href="Camiguin.html">Camiguin</a></li>
+  <li><a href="siargao.html">siargao</a></li>
+  <li><a href="Singapore.html">Singapore</a></li>
+</div>
+
+<style>
+body {
+  background: url(camiguin.jpg);
+  background-size: 1370px;
+  
+}
+
+.t {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: crimson;
+  font-size: 20px;
+  font-family: Papyrus;
+}
+
+.t li {
+  float: left;
+}
+
+.t li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.t li a:hover:not(.active) {
+  background-color: peru;
+}
+
+.active {
+  background-color: peru;
+}
+
+.t1 {
+  list-style-type: none;
+  margin-left: 1px;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  background-color: crimson;
+  font-size: 18px;
+  overflow: auto;
+  height: 1000px;
+}
+
+.t1 li a {
+  display: block;
+  background-color: crimson;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.t1 li a.active {
+  background-color: peru;
+  color: white;
+}
+
+.t1 li a:hover:not(.active) {
+  background-color: peru;
+  color: white;
+}
+
+</style>
+</body>
+</html>

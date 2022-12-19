@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<div class="s">
+  <li><a href="profile.html">Profile</a></li>
+  <li><a class="active" href="career.html">Career</a></li>
+  <li><a href="travel.html">Travel</a></li>
+</div>
+
+<div class="s1">
+  <li><a href="model.html">Model</a></li>
+  <li><a class="active" href="fashion.html">Fashion Designer</a></li>
+  <li><a href="web.html">Web Developer</a></li>
+</div>
+
+<div class="s2">
+  <h2>FASHION DESIGNER</h2>
+  <a target="_blank" href="2.jpeg">
+    <img src="2.jpeg" width="600" height="400">
+  </a>
+  <div class="s3">In my high school days,I'm a shy type and don't have some friends.I'm just spending my time to draw gowns because i really want to become a fashion designer.As a fashion designer, you have the chance to employ creativity every day. Fashion designers use the principles of art and design to choose silhouettes, colors, textures and other aspects of attire, shoes and accessories.
+ </div>
+</div>
+
+<style>
+body {
+  background-color: palegoldenrod;
+}
+  
+.s {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: crimson;
+  font-size: 20px;
+  font-family: Papyrus;
+}
+
+.s li {
+  float: left;
+}
+
+.s li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.s li a:hover:not(.active) {
+  background-color: peru;
+}
+
+.s .active {
+  background-color: peru;
+}
+
+.s1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  background-color: crimson;
+  font-size: 18px;
+  overflow: auto;
+  height: 1000px;
+}
+
+.s1 li a {
+  display: block;
+  background-color: crimson;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.s1 li a.active {
+  background-color: peru;
+  color: white;
+}
+
+.s1 li a:hover:not(.active) {
+  background-color: peru;
+  color: white;
+}
+
+.s2 {
+  margin-left: 500px;
+}
+
+.s3 {
+  text-align: center;
+  margin-right: 240px;
+}
+
+</style>
+</body>
+</html>
